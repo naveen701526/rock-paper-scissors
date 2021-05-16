@@ -2,7 +2,7 @@
 
 :root {
     --primary-color: #003699;
-    --dark-color: #333333;
+    --dark-color: #77156a;
     --light-color: #f4f4f4;
     --lose-color: #dc3545;
     --win-color: #28a745;
@@ -49,4 +49,28 @@ body {
 .restart-btn:hover {
     background: var(--primary-color);
     color: #fff;
+}
+
+.header {
+    text-align: center;
+    margin: 1rem 0;
+}
+
+.header h1 {
+    margin-bottom: 1rem;
+}
+
+.score {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    font-size: 1.2rem;
+    color: #fff;
+}
+
+.score p:first-child {
+    background: var(--primary-color);
+}
+
+.score p:last-child {
+    background: var(--dark-color);
 }
