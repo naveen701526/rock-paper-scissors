@@ -40,3 +40,9 @@
         opacity: 1;
     }
 }
+
+@media (max-width: 321px) {
+    .modal-content {
+        width: 250px;
+    }
+}
