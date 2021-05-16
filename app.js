@@ -15,5 +15,17 @@ function play(e) {
     const computerChoice = getComputerChoice();
 }
 
+// Get Computers Choice
+function getComputerChoice() {
+    const rand = Math.floor(Math.random() * 3 + 1);
+    if (rand === 1) {
+        return 'rock';
+    } else if (rand === 2) {
+        return 'paper';
+    } else {
+        return 'scissors';
+    }
+}
+
 // Event Listener on the choice
 choices.forEach((choice) => choice.addEventListener('click', play));
