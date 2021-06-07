@@ -16,7 +16,10 @@ The Rules of the Game can be Understood by the image given below
 
 
 
-#Images of the Output of the Projects:
+
+
+
+# Images of the Output of the Projects:
 
 
 
@@ -38,7 +41,7 @@ UI of the Game
 
 
 
-#Winning Conditions Output:
+# Winning Conditions Output:
 
 
 
@@ -56,7 +59,7 @@ UI of the Game
 
 
 
-#Losing Conditions Output:
+# Losing Conditions Output:
 
 
 
@@ -76,7 +79,7 @@ UI of the Game
 
 
 
-#Draw Conditions Output:
+# Draw Conditions Output:
 
 
 
